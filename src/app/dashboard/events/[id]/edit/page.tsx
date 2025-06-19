@@ -58,7 +58,8 @@ export default async function EditEventPage({ params }: EditEventPageProps) {
 
           <div className="space-y-2">
             <Label htmlFor="description">Event Description</Label>
-            <Textarea id="description" name="description" defaultValue={event.description} required />
+            {/* SAHI KIYA HUA CODE YAHAN HAI */}
+            <Textarea id="description" name="description" defaultValue={event.description || ''} required />
           </div>
 
           <div className="space-y-2">
