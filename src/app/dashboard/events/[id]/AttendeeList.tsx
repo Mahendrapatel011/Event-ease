@@ -27,7 +27,7 @@ export function AttendeeList({ rsvps }: AttendeeListProps) {
     return (
       <div className="text-center p-8 bg-muted/50 text-muted-foreground rounded-lg border-2 border-dashed">
         <UserCircle2 className="mx-auto h-10 w-10" />
-        <p className="mt-4 font-medium">No one has RSVP'd yet.</p>
+        <p className="mt-4 font-medium">No one has RSVP&aposd yet.</p>
         <p className="text-sm">Share your event to get attendees!</p>
       </div>
     );
