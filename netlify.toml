@@ -1,0 +1,13 @@
+# This file gives Netlify explicit instructions and overrides everything else.
+
+[build]
+  # This tells Netlify EXACTLY what command to run.
+  command = "npm run build"
+  
+  # This tells Netlify EXACTLY where the finished site is.
+  publish = ".next"
+
+# This is the most important part for a Next.js site.
+# It tells Netlify to use its special Next.js tools.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
